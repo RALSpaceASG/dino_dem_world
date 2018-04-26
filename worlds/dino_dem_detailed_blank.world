@@ -8,7 +8,7 @@
 
 	<include>
 		<uri>model://dino_dem_detailed_blank</uri>
-		<pose> -50 200 -1345 0.1 0.0 0.8 </pose>
+		<pose> -50 200 -1325 0.1 0.0 0.8 </pose>
 	</include>
 
 	</world>
