@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" value="$(find dino_dem_world)/worlds/dino_dem_detailed_blank.world"/>
+	</include>
+</launch>

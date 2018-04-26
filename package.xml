@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>dino_dem_world</name>
+  <version>0.0.0</version>
+  <description>The dino_dem_world package</description>
+
+  <maintainer email="seeker1@todo.todo">seeker1</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+  	<gazebo_ros gazebo_model_path="${prefix}/models"/>
+	  <gazebo_ros gazebo_media_path="${prefix}/models"/>
+  </export>
+</package>
