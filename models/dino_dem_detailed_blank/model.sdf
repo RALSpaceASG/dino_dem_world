@@ -1,10 +1,10 @@
-<?xml version='1.0'?>
-<sdf version='1.5'>
-  <model name='dino_dem_detailed_blank'>
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <model name="dino_dem_detailed_blank">
     <static>true</static>
-    <link name='link'>
+    <link name="link">
 
-      <collision name='collision'>
+      <collision name="collision">
         <laser_retro>0</laser_retro>
         <!-- <max_contacts>10</max_contacts> -->
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -23,7 +23,7 @@
         </surface>
       </collision>
 
-      <visual name='visual'>
+      <visual name="visual">
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
